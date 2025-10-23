@@ -371,3 +371,297 @@ D) For tasks requiring high computational resources
 **Correct Answer**: B) **For simple, well-defined tasks with clear model knowledge**  
 
 ---
+**Question:30**
+What is one-shot prompting in the context of AI models?
+
+A) Asking the model without any examples or guidance\
+B) Providing a single example to guide the response format\
+C) Training the model with multiple examples before querying\
+D) Using complex instructions without any examples
+
+**Correct Answer**: B) **Providing a single example to guide the response format**
+
+---
+**Question:31**
+What is the main purpose of few-shot prompting?
+
+A) To confuse the model with random examples
+B) To show the model a pattern using multiple examples
+C) To reduce the number of examples given
+D) To make the model forget previous examples
+
+**Answer:** B
+
+---
+**Question:32**
+In few-shot prompting, what do the examples help the model understand?
+
+A) The internet connection speed
+B) The pattern or format expected in the output
+C) The training dataset of the model
+D) The programming language used
+
+**Answer:** B
+
+---
+**Question:33**
+In the given example, what format does the output follow?
+
+A) Paragraph text\
+B) XML data\
+C) JSON format\
+D) CSV format
+
+**Answer:** C
+
+---
+
+**Question:34**
+
+Few-shot prompting is especially useful when:
+
+A) The model already knows everything\
+B) You want the model to learn a new pattern through examples\
+C) You want random answers\
+D) You are using no instructions
+
+**Answer:** B
+
+---
+
+**Question:36**
+How many examples should you typically use in few-shot prompting?
+A) Only 1 example\
+B) 3–5 examples\
+C) 10–15 examples\
+D) As many as possible
+
+**Answer:** B
+
+
+---
+
+**Question:35**
+1. What is the main purpose of a system prompt?
+
+A) To format data into JSON\
+B) To set the model’s overall context and behavior\
+C) To generate random answers\
+D) To limit the number of responses
+
+**Answer:** B
+
+---
+
+**Question:36**
+What is the main purpose of role prompting?
+
+A) To assign a specific character or expertise to the AI\
+B) To format answers in JSON\
+C) To limit the model’s vocabulary\
+D) To make the AI answer shorter
+
+**Answer:** A
+
+---
+
+**Question:37**
+How does assigning a role help the AI?
+
+A) It helps the AI respond with the right tone, expertise, and style\
+B) It reduces the response length\
+C) It disables the model’s memory\
+D) It hides system instructions
+
+**Answer:** A
+
+---
+
+**Question:38**
+Which of the following is an example of a communication style role?
+
+A) Data analyst
+B) Friendly tutor
+C) Software engineer
+D) Doctor
+
+**Answer:** B
+
+---
+
+**Question:39**
+What is the main goal of contextual prompting?
+
+A) To provide background information relevant to the task
+B) To confuse the model with random data
+C) To assign a specific role to the AI
+D) To shorten the prompt
+
+**Answer:** A
+
+---
+
+**Question:40**
+Why is context important in prompting?
+
+A) It helps the model give more accurate and relevant answers
+B) It makes responses longer for no reason
+C) It reduces the AI’s understanding
+D) It hides the real task from the model
+
+**Answer:** A
+
+---
+
+**Question:41**
+What is the purpose of Chain-of-Thought prompting?
+
+A) To shorten the answer only
+B) To encourage step-by-step reasoning for complex problems
+C) To hide steps from the user
+D) To force the model to output JSON only
+
+**Answer:** B
+
+---
+
+**Question:42**
+CoT prompting is most useful for which of the following?
+
+A) Single-word translations
+B) Math problems, logical reasoning, and multi-step analysis
+C) Changing font sizes
+D) Generating random names
+
+**Answer:** B
+
+---
+
+**Question:43**
+Which instruction is a good CoT prompt starter?
+
+A) “Answer in one word.”
+B) “Solve this step by step:”
+C) “Give me only the final number.”
+D) “Make it short and vague.”
+
+**Answer:** B
+
+---
+
+**Question:44**
+Which phrase is recommended to trigger step-by-step reasoning?
+
+A) “Answer in one word”\
+B) “Let’s think step by step”\
+C) “Be brief”\
+D) “Ignore the steps”
+
+**Answer:** B
+
+---
+
+**Question:45**
+Why set temperature to 0 for CoT tasks?
+
+A) To make outputs more creative\
+B) To shorten responses\
+C) To make reasoning consistent and deterministic\
+D) To randomize answers
+
+**Answer:** C
+
+---
+
+**Question:46**
+What is the main purpose of Self-Consistency prompting?
+
+A) To generate random answers each time\
+B) To test the model’s creativity\
+C) To generate multiple reasoning paths and select the most consistent answer\
+D) To reduce the number of reasoning steps
+
+**Answer:** C
+
+---
+
+**Question:47**
+What should you do to apply Self-Consistency effectively?
+
+A) Ask the question once only
+B) Ask the same question multiple times with different phrasings
+C) Change the topic each time
+D) Avoid comparing results
+
+**Answer:** B
+
+---
+
+**Question:48**
+What is the key step after generating multiple reasoning paths?
+
+A) Use the longest answer\
+B) Choose the most emotional answer\
+C) Select the most frequently occurring result\
+D) Randomly pick one result
+
+**Answer:** C
+
+---
+
+**Question:49**
+What kind of problems benefit most from Self-Consistency prompting?
+
+A) Simple yes/no questions\
+B) Complex reasoning or analytical tasks that require accuracy\
+C) Random text generation\
+D) Grammar correction tasks
+
+**Answer:** B
+
+---
+
+**Question:50**
+What is the main goal of Step-Back Prompting?
+
+A) To make the model answer faster\
+B) To ask a more general question first, then use that context for the specific question\
+C) To remove all context from the prompt\
+D) To avoid reasoning steps
+
+**Answer:** B
+
+---
+
+**Question:51**
+
+What does “ReAct” stand for?
+A) Reacting quickly to user input
+B) Reasoning + Acting
+C) Research + Action Tool
+D) Recursive Activity
+
+**Answer:** B
+
+---
+**Question:52**
+
+2. What are the three key components in the ReAct process?
+A) Search, Read, Write
+B) Plan, Execute, Finish
+C) Thought, Action, Observation
+D) Input, Output, Feedback
+
+**Answer:** C
+
+---
+
+**Question:53**
+
+3. What is the main purpose of ReAct prompting?
+A) To create random actions without reasoning
+B) To make the AI output faster
+C) To combine reasoning with tool use for solving complex, real-world tasks
+D) To remove all external information
+
+**Answer:** C
