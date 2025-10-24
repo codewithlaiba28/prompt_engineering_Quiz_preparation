@@ -1605,3 +1605,367 @@ D. It increases typing speed
 
 **Correct Answer:** C. It dramatically improves the quality and precision of AI outputs
 
+---
+
+**Question:127**
+
+What is the main goal of Context Engineering?
+
+A) To write prompts in natural language\
+B) To train new LLM models\
+C) To give the model the right information at the right time\
+D) To improve model tokenization
+
+**Answer:** C
+
+---
+**Question:128**
+
+What does “context window” refer to in an LLM?
+
+A) The display screen where results are shown\
+B) The input area where data and instructions are packed\
+C) The neural layer of the model\
+D) The dataset used during training
+
+**Answer:** B
+
+---
+**Question:129**
+
+In simple terms, Context Engineering is like:
+
+A) Building a model from scratch\
+B) Creating a perfect instruction manual for the AI\
+C) Training data labeling\
+D) Choosing the best dataset
+
+**Answer:** B
+
+---
+**Question:130**
+
+Which of the following best describes Context Engineering?
+
+A) Writing short and direct prompts\
+B) Designing systems to feed relevant information into the LLM dynamically\
+C) Manually correcting AI outputs\
+D) Reducing model parameters
+
+**Answer:** B
+
+---
+
+**Question:131**
+
+Why is Context Engineering important?
+
+A) It increases LLM speed\
+B) It ensures the AI gets precise and useful data for better results\
+C) It replaces prompt engineering completely\
+D) It reduces internet dependency
+
+**Answer:** B
+
+---
+
+**Question:132**
+
+According to Andrej Karpathy, what does the context window represent in the LLM analogy?
+
+A) CPU\
+B) GPU\
+C) RAM\
+D) Hard Drive
+
+**Answer:** C
+
+---
+
+**Question:133**
+
+In Karpathy’s comparison, what does the LLM itself represent?
+
+A) Operating System\
+B) CPU\
+C) Cache\
+D) GPU
+
+**Answer:** B
+
+---
+
+**Question:134**
+
+What is the main objective of Context Engineering?
+
+A) To train LLMs from scratch\
+B) To optimize how we fill the model’s “RAM” (context window) with the most relevant information\
+C) To design hardware for AI systems\
+D) To create datasets for pretraining
+
+**Answer:** B
+
+---
+
+**Question:135**
+
+Why is the context window compared to RAM?
+
+A) Because it permanently stores data\
+B) Because it temporarily holds information the model can actively use\
+C) Because it processes data like a CPU\
+D) Because it determines model accuracy
+
+**Answer:** B
+
+---
+
+**Question:136**
+
+Which statement best summarizes Context Engineering?
+
+A) It’s about writing clever prompts only.\
+B) It’s about building dynamic systems that feed the LLM the right information in the right format at the right time.\
+C) It’s about fine-tuning model weights.\
+D) It’s about improving data labeling.
+
+**Answer:** B
+
+---
+
+**Question:137**
+
+What happens if the context window is poorly optimized?
+
+A) The LLM generates faster results.\
+B) The LLM receives irrelevant or incomplete data, leading to poor responses.\
+C) The LLM’s token usage decreases automatically.\
+D) The model retrains itself.
+
+**Answer:** B
+
+---
+
+**Question:138**
+
+**What is the primary use case of Prompt Engineering?**
+
+A) Building AI-powered applications\
+B) Direct conversations with AI (like ChatGPT)\
+C) Designing LLM architectures\
+D) Managing datasets
+
+**Answer:** B
+
+---
+
+**Question:139**
+
+**Which type of engineering is more likely used for creating a customer service or sales assistant agent?**
+
+A) Prompt Engineering\
+B) Context Engineering\
+C) Data Engineering\
+D) Model Training
+
+**Answer:** B
+
+---
+
+**Question:140**
+
+**How does the nature of interaction differ in Prompt Engineering?**
+
+A) It involves one-time, static instructions\
+B) It’s a back-and-forth conversational process\
+C) It uses XML-like syntax and structured tags\
+D) It runs without user interaction
+
+**Answer:** B
+
+---
+
+**Question:141**
+
+**What is a key characteristic of Context Engineering?**
+
+A) Simple question-and-answer format\
+B) Uses iterative prompts for refining outputs\
+C) Involves complex, structured inputs with markdown or XML tags\
+D) Requires no system-level planning
+
+**Answer:** C
+
+---
+
+**Question:142**
+
+**Which statement best describes the complexity difference between the two?**
+
+A) Prompt Engineering is complex; Context Engineering is simple
+
+B) Both are simple techniques
+
+C) Prompt Engineering allows simple refinement, while Context Engineering uses complex, code-like structures
+
+D) Context Engineering relies only on user chat history
+
+**Answer:** C
+
+---
+
+**Question:143**
+
+**What is the “Model” in an AI system?**
+
+A) The user interface of the system\
+B) The core AI engine that processes inputs and generates outputs\
+C) The storage unit for data\
+D) The monitoring dashboard
+
+**Answer:** B
+
+---
+
+
+**Question:144**
+
+**What is the main function of Tools in AI systems?**
+
+A) To enhance model training\
+B) To enable interaction with external systems\
+C) To store long-term memory\
+D) To control data encryption
+
+**Answer:** B
+
+---
+
+**Question:145**
+
+**What’s the difference between Knowledge and Memory?**
+
+A) Knowledge is static; Memory is dynamic\
+B) Both are static\
+C) Memory stores pretraining data\
+D) Knowledge is short-term; Memory is long-term
+
+**Answer:** A
+
+---
+
+**Question:146**
+
+**What role does “Audio and Speech” play in AI systems?**
+
+A) Adds visual interaction\
+B) Provides voice input/output for natural and accessible communication\
+C) Improves database speed\
+D) Helps in debugging system errors
+
+**Answer:** B
+
+---
+
+**Question:147**
+
+**What are “Guardrails” in AI systems?**
+
+A) Hardware protection units\
+B) Safety mechanisms ensuring proper behavior and compliance\
+C) Tools for faster API calls\
+D) Model fine-tuning scripts
+
+**Answer:** B
+
+---
+
+**Question:148**
+
+**Why is Orchestration important in AI systems?**
+
+A) It trains new models\
+B) It ensures continuous improvement and system reliability after deployment\
+C) It improves conversation flow\
+D) It filters sensitive data
+
+**Answer:** B
+
+---
+
+**Question:149**
+
+What type of content should the assistant avoid in its final summary?
+
+A) Bullet points\
+B) Background information, fluff, or personal commentary\
+C) New AI updates\
+D) Data sources
+
+**Answer:** B
+
+---
+
+**Question:150**
+
+According to the best practices, what is the key to maintaining clarity and consistency in context structure?
+
+A) Using emojis and short phrases
+B) Using XML tags, markdown, and clear formatting
+C) Adding random separators
+D) Keeping everything in plain text
+
+**Answer:** B
+
+---
+
+**Question:151**
+
+Why should you anticipate all possible scenarios when designing a context system?
+
+A) To make it look complex
+B) To ensure comprehensive and reliable behavior across different inputs
+C) To reduce token usage
+D) To shorten the development time
+
+**Answer:** B
+
+---
+
+**Question:152**
+
+What is the main reason for extensive testing of context-engineered systems?
+
+A) To find and handle edge cases that could break the system
+B) To increase training data size
+C) To improve AI creativity
+D) To reduce user feedback
+
+**Answer:** A
+
+---
+
+**Question:153**
+
+Why is continuous iteration based on real usage important?
+
+A) It helps monitor performance and make practical improvements
+B) It saves time during initial setup
+C) It removes the need for documentation
+D) It allows skipping user testing
+
+**Answer:** A
+
+---
+
+**Question:154**
+
+Which of the following ensures safety and trust in context-engineered systems?
+
+A) Using random prompts
+B) Implementing proper guardrails and security measures
+C) Ignoring user data
+D) Limiting context tokens
+
+**Answer:** B
