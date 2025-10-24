@@ -1,12 +1,12 @@
-# **Accuracy:** 
-Does it answer correctly?
-# **Relevance:** 
-Is it on-topic?
-# **Completeness:** 
-Does it cover everything needed?
-# **Style:** 
-Does it match the desired tone?
-# **Format:** 
+**Accuracy:** 
+Does it answer correctly?\
+**Relevance:** 
+Is it on-topic?\
+**Completeness:** 
+Does it cover everything needed?\
+**Style:** 
+Does it match the desired tone?\
+**Format:** 
 Is it structured as requested
 
 ---

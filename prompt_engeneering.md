@@ -1969,3 +1969,108 @@ C) Ignoring user data
 D) Limiting context tokens
 
 **Answer:** B
+
+---
+
+**Question:155**
+
+What does context engineering primarily extend or evolve from?
+
+A) Data labeling
+B) Prompt engineering
+C) Model pruning
+D) Frontend design
+
+**Answer:** B
+
+---
+
+**Question:156**
+
+Which goal best describes context engineering for AI agents?
+
+A) Making prompts shorter
+B) Architecting comprehensive instruction systems so agents operate effectively and safely
+C) Replacing human oversight entirely
+D) Increasing model parameter count
+
+**Answer:** B
+
+---
+
+**Question:157**
+
+Why is it important to treat context engineering as an ongoing process?
+
+A) Models never change, so one-time setup is enough
+B) The field is rapidly evolving and real-world performance requires iteration
+C) To avoid writing documentation
+D) Because it reduces the need for testing
+
+**Answer:** B
+
+---
+
+**Question:158**
+
+Which of the following is *not* a core recommendation for getting started with context engineering?
+
+A) Start simple
+B) Test thoroughly
+C) Iterate based on performance
+D) Deploy without monitoring
+
+**Answer:** D
+
+---
+
+**Question:159**
+
+Context engineering aims to enable AI agents to handle:
+
+A) Only trivial chat responses
+B) Complex tasks and real-world scenarios
+C) Only image generation
+D) Only offline batch jobs
+
+**Answer:** B
+
+---
+
+**Question:160**
+
+What is a key risk if context systems are not well-architected?
+
+A) Faster inference
+B) Unreliable or unsafe agent behavior in production
+C) Reduced model size
+D) Lower data storage costs
+
+**Answer:** B
+
+---
+
+**Question:161**
+
+Which practice helps keep context engineering effective as technology changes?
+
+A) Freezing the design once implemented
+B) Staying updated with new frameworks, tools, and best practices
+C) Avoiding community discussions
+D) Using proprietary solutions only
+
+**Answer:** B
+
+---
+
+**Question:162**
+
+What’s the single best first step when beginning a context engineering project?
+
+A) Build a massive multi-module system immediately
+B) Start simple and iterate based on testing and real usage
+C) Skip testing and rely on intuition
+D) Outsource monitoring entirely
+
+**Answer:** B
+
