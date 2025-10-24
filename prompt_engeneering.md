@@ -646,7 +646,7 @@ D) Recursive Activity
 ---
 **Question:52**
 
-2. What are the three key components in the ReAct process?
+What are the three key components in the ReAct process?
 A) Search, Read, Write
 B) Plan, Execute, Finish
 C) Thought, Action, Observation
@@ -658,10 +658,950 @@ D) Input, Output, Feedback
 
 **Question:53**
 
-3. What is the main purpose of ReAct prompting?
+What is the main purpose of ReAct prompting?
 A) To create random actions without reasoning
 B) To make the AI output faster
 C) To combine reasoning with tool use for solving complex, real-world tasks
 D) To remove all external information
 
 **Answer:** C
+
+---
+
+**Question:54**
+
+What is the main goal of the Tree of Thoughts (ToT) approach?
+A. To memorize large datasets\
+B. To explore multiple reasoning paths before reaching a conclusion\
+C. To increase the model’s response speed\
+D. To use fewer prompts for efficiency
+**Answer:** B
+
+---
+
+**Question:55**
+
+Which of the following best describes a “branch” in the ToT framework?
+
+A. A random thought by the model\
+B. A different reasoning path exploring one possible solution\
+C. The final summarized answer\
+D. A prompt used for training
+**Answer:** B
+
+---
+
+**Question:56**
+
+Tree of Thoughts (ToT) is especially useful for:
+
+A. Simple factual questions\
+B. Tasks with one correct answer\
+C. Complex and creative problem solving\
+D. Grammar correction tasks
+
+**Answer**: C
+
+---
+
+**Question:57**
+
+Which of the following is the best example of a clear and specific prompt?
+
+A. Write about dogs./
+B. Describe dogs.\
+C. Write a short note on dogs.\
+D. Write a 300-word article about the health benefits of owning a dog, focusing on mental health, physical activity, and social connections.
+
+**Correct Answer:** D. Write a 300-word article about the health benefits of owning a dog, focusing on mental health, physical activity, and social connections.
+
+---
+
+**Question:58**
+
+Why should you use action verbs in prompts?
+
+A. To make the prompt sound longer\
+B. To clearly tell the AI what action to perform\
+C. To make the output more decorative\
+D. To limit the response length
+**Correct Answer:** B. To clearly tell the AI what action to perform
+
+---
+
+**Question:59**
+
+Which of the following words is not an action verb used in prompt engineering?
+
+A. Compare\
+B. Evaluate\
+C. Sleep\
+D. Summarize
+
+**Correct Answer:** C. Sleep
+
+---
+
+**Question:60**
+
+What is the benefit of providing examples in your prompt?
+
+A. It makes the prompt shorter\
+B. It tells the AI exactly what format and style you expect\
+C. It reduces model accuracy\
+D. It adds unnecessary complexity
+
+**Correct Answer:** B. It tells the AI exactly what format and style you expect
+
+---
+
+**Question:61**
+
+Which version follows the principle of “Use Instructions Over Constraints”?
+
+A. Write an email but don’t make it too long or too informal.\
+B. Write a professional email summarizing the key points from our meeting.\
+C. Write something about our meeting.\
+D. Avoid long sentences in your email.
+**Correct Answer:** B. Write a professional email summarizing the key points from our meeting.
+
+---
+
+**Question:62**
+
+How can you control the output format in a prompt?
+
+A. By limiting the temperature\
+B. By specifying the response structure, such as JSON\
+C. By avoiding examples\
+D. By using fewer instructions
+**Correct Answer:** B. By specifying the response structure, such as JSON
+
+---
+
+**Question:63**
+
+What is the main advantage of using variables like {expertise} or {document_type} in prompts?
+
+A. To make prompts reusable and adaptable\
+B. To make the text longer\
+C. To confuse the AI model\
+D. To make the output unpredictable
+
+**Correct Answer:** A. To make prompts reusable and adaptable
+
+---
+
+**Question:64**
+
+What should you do after identifying a successful prompt?
+
+A. Forget it\
+B. Keep using the same prompt without changes\
+C. Document and test variations to improve it\
+D. Delete it immediately
+
+**Correct Answer:** C. Document and test variations to improve it
+
+---
+
+**Question:65**
+
+What is the main issue caused by ambiguous instructions in a prompt?
+
+A. The model refuses to respond\
+B. The response becomes too long\
+C. The output becomes unpredictable or unclear\
+D. The response is always the same
+
+**Correct Answer:** C. The output becomes unpredictable or unclear
+
+---
+
+**Question:66**
+
+How can you avoid ambiguous instructions?
+
+A. Add more random details\
+B. Be specific and clearly state what you want\
+C. Use fewer words\
+D. Add more examples without instructions
+
+**Correct Answer:** B. Be specific and clearly state what you want
+
+---
+
+**Question:67**
+
+How can you avoid over-constraining your prompts?
+
+A. Use longer instructions\
+B. Add more rules\
+C. Focus on clear, positive instructions instead of long lists of “don’ts”\
+D. Remove all formatting
+
+**Correct Answer:** C. Focus on clear, positive instructions instead of long lists of “don’ts”
+
+---
+
+**Question:68**
+
+What is the best way to improve prompt performance over time?
+
+A. Keep using the first version of your prompt\
+B. Test different phrasings, examples, and structures\
+C. Use fewer instructions\
+D. Avoid reviewing results
+
+**Correct Answer:** B. Test different phrasings, examples, and structures
+
+---
+
+**Question:69**
+
+In the provided example, what change was made between version v1.0 and v1.1?
+
+A. Added tone guidance to improve the output\
+B. Changed model from GPT-4 to GPT-3\
+C. Reduced temperature\
+D. Removed output quality rating
+
+**Correct Answer:** A. Added tone guidance to improve the output
+
+---
+
+**Question:70**
+
+What is the main purpose of a testing framework in prompt engineering?
+A. To randomly test prompts for fun\
+B. To systematically record, analyze, and improve prompt performance\
+C. To generate prompts automatically without testing\
+D. To reduce the model’s accuracy
+
+**Correct Answer:** B. To systematically record, analyze, and improve prompt performance
+
+---
+
+**Question:71**
+
+Which of the following is NOT a key element of a testing framework?
+
+A. Recording prompt variations\
+B. Evaluating results\
+C. Ignoring feedback\
+D. Refining prompts based on insights
+
+**Correct Answer:** C. Ignoring feedback
+
+---
+
+**Question:72**
+
+What should be recorded in a prompt testing framework?
+
+A. Prompt versions, goals, model, temperature, output quality, and notes\
+B. Only the model name\
+C. Only the date of testing\
+D. Only the temperature value
+
+**Correct Answer:** A. Prompt versions, goals, model, temperature, output quality, and notes
+
+---
+
+**Question:73**
+
+What kind of output qualities are usually compared in A/B testing?
+
+A. Accuracy, relevance, and quality\
+B. File size and font style\
+C. Response time only\
+D. Number of tokens used
+
+
+**Correct Answer:** A. Accuracy, relevance, and quality
+
+---
+
+**Question:74**
+
+What is the benefit of running A/B tests on prompts?
+
+A. To test random prompts\
+B. To find which prompt version produces the most effective and consistent output\
+C. To reduce creativity\
+D. To save API costs
+
+
+**Correct Answer:** B. To find which prompt version produces the most effective and consistent output
+
+---
+
+**Question:75**
+
+What is the main purpose of A/B testing in prompt engineering?
+
+A. To test AI models from different companies
+B. To compare multiple prompt versions and identify which performs best
+C. To randomly change prompts for variety
+D. To test temperature limits only
+
+
+**Correct Answer:** B. To compare multiple prompt versions and identify which performs best
+
+---
+
+**Question:76**
+
+What is the main goal of evaluating AI-generated results?
+
+A.To see how fast the AI responds\
+B. To measure the quality and effectiveness of the output\
+C. To reduce token usage\
+D. To compare different models
+
+
+**Correct Answer:** B. To measure the quality and effectiveness of the output
+
+---
+
+**Question:77**
+
+What does consistency mean in prompt evaluation?
+
+A. The same prompt should produce similar outputs across multiple runs\
+B. The AI should generate random answers\
+C. The tone should always change\
+D. The output must include examples
+
+**Correct Answer:** A. The same prompt should produce similar outputs across multiple runs
+
+---
+
+**Question:77**
+
+What should a prompt engineer include to improve context management during long conversations?
+
+A. Unrelated examples\
+B. Summaries of previous context\
+C. Randomized inputs\
+D. Higher temperature
+
+**Correct Answer:** B. Summaries of previous context
+
+---
+
+**Question:78**
+
+What does multi-modal prompting refer to?
+
+A. Using multiple models at once\
+B. Combining text with images or other input types\
+C. Using random outputs\
+D. Asking for JSON responses only
+
+**Correct Answer:** B. Combining text with images or other input types
+
+
+----
+
+**Question:79**
+
+What is the main goal of prompt chaining?
+
+A. To create longer prompts\
+B. To break complex tasks into clear, logical steps\
+C. To mix multiple topics\
+D. To avoid structured formats
+
+**Correct Answer:** B. To break complex tasks into clear, logical steps
+
+----
+
+**Question:80**
+
+Which advanced technique helps you connect multiple prompts for a single large task?
+A. Multi-modal prompting
+B. Prompt chaining
+C. Structured outputs
+D. Context summarization
+
+**Correct Answer:** B. Prompt chaining
+
+---
+
+**Question:81**
+
+What is the main purpose of Mixture-of-Experts (MoE) in large language models (LLMs)?
+
+A. To reduce model parameters\
+B. To improve efficiency by activating only relevant experts per input\
+C. To train multiple models at once\
+D. To simplify model architecture
+
+**Correct Answer:** B. To improve efficiency by activating only relevant experts per input
+
+---
+
+**Question:82**
+
+What is an “expert” in the context of MoE models?
+
+A. A human providing data\
+B. A specialized sub-network trained for specific types of tasks or data\
+C. A fine-tuned dense model\
+D. A transformer encoder
+
+**Correct Answer:** B. A specialized sub-network trained for specific types of tasks or data
+
+---
+
+**Question:83**
+
+Which component decides which experts to activate for a given input?
+
+A. Gating Network (or Router)\
+B. Optimizer\
+C. Decoder\
+D. Tokenizer
+
+**Correct Answer:** A. Gating Network (or Router)
+
+---
+
+**Question:84**
+
+What does sparse activation mean in MoE models?
+
+A. Only a subset of experts are activated per token\
+B. All parameters are activated every time\
+C. Experts take turns randomly\
+D. The model deactivates attention heads
+
+**Correct Answer:** A. Only a subset of experts are activated per token
+
+---
+
+**Question:85**
+
+Which of the following is a key benefit of using MoE?
+
+A. Increased compute cost\
+B. Higher efficiency with scalable performance\
+C. Slower inference time\
+D. Limited specialization
+
+**Correct Answer:** B. Higher efficiency with scalable performance
+
+---
+
+**Question:86**
+
+What should you avoid in MoE prompting to prevent routing confusion?
+
+A. Mixing multiple task types in one prompt\
+B. Using explicit domain terms\
+C. Adding short examples\
+D. Keeping the format structured
+
+**Correct Answer:** A. Mixing multiple task types in one prompt
+
+---
+
+
+
+**Question:87**
+What is the main reason most people fail to get good results from their prompts?
+
+A. They use too many examples\
+B. They ask vague or unclear questions\
+C. They use technical language\
+D. They make prompts too long
+
+**Correct Answer:** B. They ask vague or unclear questions
+
+---
+
+**Question:88**
+Which of the following is a strong action verb suitable for clear prompting?
+
+A. Give\
+B. Help\
+C. Create\
+D. Tell
+
+**Correct Answer:** C. Create
+
+---
+
+
+**Question:89**
+What is the key difference between a bad and good prompt?
+
+A. Length of the question\
+B. The use of emojis\
+C. Clarity, specificity, and action-based wording\
+D. Number of examples
+
+**Correct Answer:** C. Clarity, specificity, and action-based wording
+
+---
+
+**Question:90**
+Why should you avoid weak verbs like “give” or “help”?
+
+A. They make prompts too long\
+B. They sound unprofessional\
+C. They don’t guide the model toward a clear, focused task\
+D. They are hard to understand
+
+**Correct Answer:** C. They don’t guide the model toward a clear, focused task
+
+---
+
+**Question:91**
+A great prompt usually begins with:
+
+A. A question mark\
+B. A polite greeting\
+C. A clear, direct command using an action verb\
+D. A random idea
+
+**Correct Answer:** C. A clear, direct command using an action verb
+
+---
+
+**Question:92**
+What does the phrase “be specific about what you want” mean in prompt design?
+
+A. Give all background details\
+B. Clearly define the goal, topic, and output format\
+C. Keep prompts general for flexibility\
+D. Use short phrases only
+
+**Correct Answer:** B. Clearly define the goal, topic, and output format
+
+---
+
+**Question:93**
+In the example: “Recommend a diversified investment strategy for a moderate risk investor saving for a home within 5 years.” Why is this a good prompt?
+
+A. It’s long and polite\
+B. It includes a clear goal, context, and time frame\
+C. It uses technical terms\
+D. It sounds formal
+
+**Correct Answer:** B. It includes a clear goal, context, and time frame
+
+---
+
+**Question:94**
+
+Which of the following best defines a clear prompt?
+
+A. A vague question that allows creativity\
+B. A command that directs the model toward a specific and measurable goal\
+C. A casual request with multiple meanings\
+D. A prompt with no verbs
+
+**Correct Answer:** B. A command that directs the model toward a specific and measurable goal
+
+---
+
+
+**Question:95**
+What is the main purpose of adding context in a prompt?
+
+A. To make the prompt longer\
+B. To help AI stay focused and generate relevant responses\
+C. To confuse the AI with more information\
+D. To test AI’s reasoning ability
+
+**Correct Answer:** B. To help AI stay focused and generate relevant responses
+
+---
+
+**Question:96**
+According to the rule “More is Always Better,” what happens if you give too little context?
+
+A. AI becomes faster\
+B. AI can take your prompt in any random direction\
+C. AI generates detailed answers automatically\
+D. AI refuses to respond
+
+**Correct Answer:** B. AI can take your prompt in any random direction
+
+
+---
+
+
+
+**Question:97**
+What is the biggest mistake when writing prompts without enough context?
+
+A. The model repeats your input\
+B. The model generates off-topic or irrelevant outputs\
+C. The model gives too much detail\
+D. The model becomes too slow
+
+**Correct Answer:** B. The model generates off-topic or irrelevant outputs
+
+---
+
+**Question:98**
+Why is it called the “Rule of Three”?
+
+A. It covers three main elements: Who, What, and When\
+B. It uses three words per sentence\
+C. It is based on three prompt styles\
+D. It applies only to three situations
+
+**Correct Answer:** A. It covers three main elements: Who, What, and When
+
+---
+
+
+**Question:99**
+What is the main problem when you don’t define an output structure in your prompt?
+
+A. The AI may refuse to answer\
+B. The AI may respond in a random or unhelpful format\
+C. The AI gives only short answers\
+D. The AI becomes repetitive
+
+**Correct Answer:** B. The AI may respond in a random or unhelpful format
+
+---
+
+**Question:100**
+What is the best way to ensure the AI gives results in a usable format?
+
+A. Use longer prompts\
+B. Tell the AI exactly how to format and present the output\
+C. Avoid adding examples\
+D. Use multiple questions in one prompt
+
+**Correct Answer:** B. Tell the AI exactly how to format and present the output
+
+
+---
+
+
+**Question:101**
+Which advanced formatting option asks the AI to create a visually shareable result?
+
+A. “Format this as a screenshotable Apple Notes format”\
+B. “List all investment types”\
+C. “Summarize this in 3 points”\
+D. “Write this in paragraph form”
+
+**Correct Answer:** A. “Format this as a screenshotable Apple Notes format”
+
+---
+
+**Question:102**
+If you want an output ready to send to someone else, which prompt format is most suitable?
+
+A. “Give me a random list”\
+B. “Give me a copy-and-pasteable asset I can send to my partner”\
+C. “Explain this briefly”\
+D. “Make it short and simple”
+
+**Correct Answer:** B. “Give me a copy-and-pasteable asset I can send to my partner”
+
+---
+
+**Question:103**
+What kind of format is best if you want to include multiple data columns?
+
+A. Paragraph\
+B. Table\
+C. Checklist\
+D. Graph
+
+**Correct Answer:** B. Table
+
+---
+
+**Question:104**
+What should you do if you plan to *use the AI’s response later* in another project?
+
+A. Ask the AI to generate long explanations\
+B. Define a clear, reusable structure for the output\
+C. Avoid formatting for flexibility\
+D. Skip specifying output type
+
+**Correct Answer:** B. Define a clear, reusable structure for the output
+
+---
+
+**Question:105**
+What is the main goal of the Roleplay technique in prompt engineering?
+
+A. To make the AI sound more casual\
+B. To define the AI’s expertise and persona for accurate responses\
+C. To limit the AI’s creativity\
+D. To shorten the prompt length
+
+**Correct Answer:** B. To define the AI’s expertise and persona for accurate responses
+
+---
+
+**Question:106**
+How does roleplay affect the AI’s response?
+
+A. It changes who the AI acts as and how it speaks\
+B. It only changes the answer length\
+C. It removes personality from the response\
+D. It limits the AI to yes/no answers
+
+**Correct Answer:** A. It changes who the AI acts as and how it speaks
+
+---
+
+**Question:107**
+Which tone modifier would make the AI’s response **realistic and cautious**?
+
+A. “Take a creative and innovative approach”\
+B. “Be brutally honest and conservative in your advice”\
+C. “Focus on storytelling”\
+D. “Write this humorously”
+
+**Correct Answer:** B. “Be brutally honest and conservative in your advice”
+
+---
+
+**Question:108**
+If you want a data-focused AI response, which tone modifier is most suitable?
+
+A. “Be friendly and casual”\
+B. “Focus on data-driven insights”\
+C. “Write this in a poetic tone”\
+D. “Be humorous”
+
+**Correct Answer:** B. “Focus on data-driven insights”
+
+---
+
+**Question:109**
+What is the main goal of formatting in prompt engineering?
+
+A. To make responses look fancy\
+B. To organize information in a clear, actionable way\
+C. To reduce the word count\
+D. To make AI responses longer
+
+**Correct Answer:** B. To organize information in a clear, actionable way
+
+
+---
+
+
+**Question:110**
+Why should you end a prompt with “Ask me 10 questions that will help you tailor this strategy even more”?
+
+A. To test AI’s knowledge\
+B. To make the model clarify missing details for personalization\
+C. To confuse the AI\
+D. To make the prompt longer
+
+**Correct Answer:** B. To make the model clarify missing details for personalization
+
+---
+
+
+
+**Question:111**
+When should you add clarifying questions in a prompt?
+
+A. After combining all elements—command, context, logic, roleplay, and formatting\
+B. At the very beginning of your prompt\
+C. Only if the AI refuses to answer\
+D. When using weak verbs like “give” or “help”
+
+**Correct Answer:** A. After combining all elements—command, context, logic, roleplay, and formatting
+
+----
+
+
+
+**Question:112**
+What is the main purpose of the Advanced Question Strategy?
+
+A. To make the AI ask random questions\
+B. To help the AI gather enough context to deliver the most accurate and personalized response\
+C. To make prompts longer for no reason\
+D. To confuse the model intentionally
+
+**Correct Answer:** B. To help the AI gather enough context to deliver the most accurate and personalized response
+
+---
+
+**Question:113**
+
+When should you stop using the Advanced Question Strategy?
+
+A. After 5 total questions\
+B. When the AI starts repeating questions\
+C. After three rounds, no matter what\
+D. When the AI gives short answers
+
+**Correct Answer:** B. When the AI starts repeating questions
+
+---
+
+**Question:114**
+Why is using **voice memos** recommended during this process?
+
+A. It saves typing time and allows more natural responses\
+B. It records the AI’s responses automatically\
+C. It makes prompts sound professional\
+D. It translates questions into other languages
+
+**Correct Answer:** A. It saves typing time and allows more natural responses
+
+---
+
+**Question:115**
+How many questions are generally enough for **simple tasks**?
+
+A. 1–2 questions\
+B. 3–5 questions\
+C. 10–15 questions\
+D. 20–30 questions
+
+**Correct Answer:** B. 3–5 questions
+
+---
+
+**Question:116**
+For **major or life-changing decisions**, how many total questions should you go through?
+
+A. 5–10 questions\
+B. 10–15 questions\
+C. 20–30 questions\
+D. 2–3 questions
+
+**Correct Answer:** C. 20–30 questions
+
+---
+
+**Question:117**
+Why should you increase the number of questions for complex or high-impact decisions?
+
+A. To test the AI’s patience\
+B. To explore all possible factors and ensure high-quality insights\
+C. To make the conversation longer\
+D. To fill token space
+
+**Correct Answer:** B. To explore all possible factors and ensure high-quality insights
+
+
+---
+
+**Question:118**
+What is one of the biggest mistakes in prompt engineering?
+
+A. Starting with clear directives\
+B. Skipping the command and beginning with questions\
+C. Adding too much context\
+D. Giving a detailed structure
+
+**Correct Answer:** B. Skipping the command and beginning with questions
+
+---
+
+**Question:119**
+What happens when you provide **insufficient context** in your prompt?
+
+A. The AI gives a perfectly targeted response\
+B. The AI generates vague or generic answers\
+C. The AI produces structured tables\
+D. The AI becomes faster
+
+**Correct Answer:** B. The AI generates vague or generic answers
+
+---
+
+**Question:120**
+Why is defining an **output structure** important?
+
+A. It makes the prompt look long and detailed\
+B. It tells the AI exactly how to organize the response\
+C. It limits the AI’s creativity\
+D. It’s optional for professional prompts
+
+**Correct Answer:** B. It tells the AI exactly how to organize the response
+
+---
+
+**Question:121**
+What is the problem with using **generic roles** like “expert” or “professional”?
+
+A. They make the AI too advanced\
+B. They don’t guide the AI toward a specific domain of expertise\
+C. They slow down AI responses\
+D. They improve creativity but reduce clarity
+
+**Correct Answer:** B. They don’t guide the AI toward a specific domain of expertise
+
+---
+
+**Question:122**
+Why is it a mistake to **stop too early** in the prompting process?
+
+A. The AI may still have missing information that affects output quality\
+B. It wastes more tokens\
+C. It adds unnecessary questions\
+D. It increases repetition
+
+**Correct Answer:** A. The AI may still have missing information that affects output quality
+
+---
+
+**Question:123**
+Which of the following tasks is considered a **personal** use of the framework?
+
+A. Technical documentation\
+B. Business plan development\
+C. Meal planning and workout routines\
+D. Marketing strategy design
+
+**Correct Answer:** C. Meal planning and workout routines
+
+---
+
+**Question:124**
+Which task falls under the **professional** application category?
+
+A. Storytelling framework\
+B. Research plan\
+C. Business plan or marketing strategy\
+D. Travel itinerary
+
+**Correct Answer:** C. Business plan or marketing strategy
+
+---
+
+
+**Question:125**
+Creating a **study guide or learning curriculum** is an example of which application type?
+
+A. Creative\
+B. Educational\
+C. Professional\
+D. Personal
+
+**Correct Answer:** B. Educational
+
+---
+
+**Question:126**
+What is the **core benefit** of mastering this 6-part framework?
+
+A. It helps automate AI tools\
+B. It allows you to control AI’s internal reasoning\
+C. It dramatically improves the quality and precision of AI outputs\
+D. It increases typing speed
+
+**Correct Answer:** C. It dramatically improves the quality and precision of AI outputs
+
