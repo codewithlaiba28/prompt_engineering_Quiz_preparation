@@ -9,7 +9,7 @@ C) To build AI hardware systems\
 D) To improve internet communication speed
 
 
-**✅ **Correct Answer:**
+**Correct Answer:**
 **B) To craft effective instructions that guide AI models toward desired outputs**
 
 ---
@@ -276,9 +276,6 @@ C) The AI model itself
 D) The network provider  
 
 **Correct Answer**: B) **The user or system designer**
-
-
-I understand you want the quiz in English, based on the previous context and the provided text about Top-K, Top-P, and temperature. Below is a revised quiz with three multiple-choice questions in English, using the exact questions and answers you specified, translated from Hindi to English, and formatted in plain text.
 
 ---
 **Question:22**
